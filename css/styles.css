@@ -234,6 +234,22 @@ color: #434455;
     width: calc((100% - 72px)/4);
 }
 
+.benefits-icon{
+display: flex; 
+align-items: center;
+ justify-content: center;
+ height: 112px;
+ background-color: #f4f4fd;
+  border-radius: 4px;
+  border: 1px solid #8e8f99;
+  margin-bottom: 8px; 
+}
+
+svg{
+    width:64px;
+    height:64px;
+}
+
 .ourteam{
     background: #F4F4FD;
     padding:120px 0;
