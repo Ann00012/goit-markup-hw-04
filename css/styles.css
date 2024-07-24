@@ -303,10 +303,13 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 
 .ourteam-container{
  padding: 32px 0;
- display: flex;
-justify-content: center;
-gap: 24px; 
 
+}
+
+.ourteam-sites-list{
+    display: flex;
+justify-content: center;
+gap: 24px;
 }
 
 .ourteam-sites-item{
@@ -444,15 +447,20 @@ max-width: 264px;
 
 }
 
-.container{
+/* .container{
     display: flex;
     align-items: baseline;
-}
+} */
 
 .footer-sites-list{
     display: flex;
     gap: 16px;
 
+}
+
+.container-footer-sites{
+    display: flex;
+    align-items: baseline;
 }
 
 .footer-sites-item{
