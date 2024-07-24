@@ -303,10 +303,39 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 
 .ourteam-container{
  padding: 32px 0;
- display: flex; 
- justify-content: center;
- gap: 24px;
- 
+
+}
+
+.ourteam-sites-link{
+     width: 100%;
+     height: 100%;
+     background-color:#4d5ae5;
+     border-radius:50%;
+     display: flex; 
+     align-items: center; 
+     justify-content: center;
+
+}
+
+.ourteam-sites-link:hover,
+.ourteam-sites-link:focus {
+    background-color: #404bbf;
+}
+
+.ourteam-sites-svg{
+     fill:#f4f4fd;
+}
+
+.ourteam-sites-item{
+    width: 40px;
+    height: 40px;
+}
+
+.ourteam-sites-container{
+display: flex;
+justify-content: center;
+gap: 24px; 
+
 }
 
 .ourteam-list-container{
