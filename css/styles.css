@@ -290,6 +290,23 @@ text-align: center;
     border-radius: 0 0 4px 4px;
 width:calc((100% - 72px)/4);
 box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+width: 40px; 
+height: 40px;
+}
+
+.ourteam-link{
+width: 100%;
+height: 100%;
+background-color: #4d5ae5;
+border-radius:50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.ourteam-link:hover,
+.ourteam-link:focus {
+    background-color: #404bbf;
 }
 
 .ourteam-list{
@@ -303,6 +320,14 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 
 .ourteam-container{
  padding: 32px 0;
+}
+
+.ourteam-list-container{
+display: flex; 
+justify-content: center;
+gap: 24px;
+
+
 }
 
 .ourportfolio{
