@@ -431,7 +431,7 @@ color:#F4F4FD;
 max-width: 264px;
 }
 
-.container-footer{
+.container-footer-text{
     align-items: baseline;
     margin-right: 120px;
 
@@ -458,7 +458,10 @@ max-width: 264px;
 
 }
 
-.container-footer-sites{
+.container-footer{
+    max-width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
     display: flex;
     align-items: baseline;
 }
@@ -466,6 +469,7 @@ max-width: 264px;
 .footer-sites-item{
     width: 40px;
      height: 40px;
+     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-sites-link{
