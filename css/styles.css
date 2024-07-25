@@ -245,10 +245,7 @@ align-items: center;
   margin-bottom: 8px; 
 }
 
-svg{
-    width:64px;
-    height:64px;
-}
+
 
 .ourteam{
     background: #F4F4FD;
@@ -310,6 +307,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
     display: flex;
 justify-content: center;
 gap: 24px;
+margin: 8px;
 }
 
 
